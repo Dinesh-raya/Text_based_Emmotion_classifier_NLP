@@ -63,7 +63,7 @@ def main():
 
     else:
         st.subheader("About")
-        add_page_visited_details("About",datetime.now())
+        st.write("thank you for visiting")
 
 if __name__ == '__main__':
     main()
